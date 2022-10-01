@@ -93,10 +93,12 @@ filetype plugin indent on
 
 syntax enable
 
+" if want ocular
 let g:vimtex_view_general_viewer = 'okular'
 let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
 
-
+" If want zathra
+" let g:vimtex_view_method = 'zathura'
 
 
 
