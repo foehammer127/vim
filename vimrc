@@ -10,7 +10,7 @@ call plug#begin('~/.vim/plugged')
  Plug 'preservim/nerdtree'
  Plug 'joshdick/onedark.vim'
  Plug 'lifepillar/vim-gruvbox8'
-
+ Plug 'lervag/vimtex'
 call plug#end()
 
 " }}}
@@ -86,6 +86,17 @@ augroup END
 let NerdTreeMinimalUI=1
 let NerdTreeMinimalMenu=1
 let NerdTreeQuitOnOpen='3'
+
+
+" Vimtex
+filetype plugin indent on
+
+syntax enable
+
+let g:vimtex_view_general_viewer = 'okular'
+let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
+
+
 
 
 
