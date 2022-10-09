@@ -60,6 +60,8 @@ set wildmode=list:longest
 
 set noswapfile
 
+set cursorline
+
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " }}} 
 " Vimscript Code -------------------------------------------------------------------------------------------------------------------------- {{{
