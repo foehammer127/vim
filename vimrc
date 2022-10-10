@@ -63,7 +63,7 @@ set noswapfile
 set cursorline
 
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
-" }}} 
+" }}} i
 " Vimscript Code -------------------------------------------------------------------------------------------------------------------------- {{{
 
 
@@ -76,14 +76,13 @@ augroup END
 
 
 
+" }}}
+" Bindings --------------------------------------------------------------- {{{
+
+
 
 " }}}
-" Bindings -------------------------------------- {{{
-
-
-
-" }}}
-" Plugin Configs ---------------------------------- {{{
+"Plugin Configs ---------------------------------- {{{
 "  Nerd Tree Configuration! 
 let NerdTreeMinimalUI=1
 let NerdTreeMinimalMenu=1
