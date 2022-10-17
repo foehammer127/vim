@@ -11,6 +11,7 @@ call plug#begin('~/.vim/plugged')
  Plug 'joshdick/onedark.vim'
  Plug 'lifepillar/vim-gruvbox8'
  Plug 'lervag/vimtex'
+ Plug 'rhysd/vim-clang-format' 
 call plug#end()
 
 " }}}
