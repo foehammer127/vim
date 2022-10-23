@@ -27,7 +27,7 @@ set shiftwidth=4
 set tabstop=4
 
 " Set Space Chars for tabs instead of tabs
-set expandtab
+" set expandtab
 
 " Line Numbering
 set number
