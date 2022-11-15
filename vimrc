@@ -1,5 +1,4 @@
 " Plugs ----------------------------------------------------- {{{
-"
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
   silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
@@ -12,7 +11,8 @@ call plug#begin('~/.vim/plugged')
  Plug 'lifepillar/vim-gruvbox8'
  Plug 'lervag/vimtex'
  Plug 'rhysd/vim-clang-format'
- Plug 'catppuccin/vim' 
+ Plug 'catppuccin/vim'
+ Plug 'itchyny/lightline.vim' 
 call plug#end()
 
 " }}}
@@ -63,9 +63,12 @@ set wildmode=list:longest
 set noswapfile
 
 set cursorline
+" Statusline Stuff
+set laststatus=2
+set noshowmode
 
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
-" }}} i
+" }}} 
 " Vimscript Code -------------------------------------------------------------------------------------------------------------------------- {{{
 
 
