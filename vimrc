@@ -64,8 +64,8 @@ set noswapfile
 
 set cursorline
 " Statusline Stuff
-" set laststatus=2
-" set noshowmode
+set laststatus=2
+set noshowmode
 
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " }}} 
