@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
  Plug 'lervag/vimtex'
  Plug 'rhysd/vim-clang-format'
  Plug 'catppuccin/vim'
+ Plug 'fatih/vim-go', {'do': ':GoInstallBinaries' }
 call plug#end()
 
 " }}}
@@ -60,6 +61,8 @@ set wildmenu
 set wildmode=list:longest
 
 set noswapfile
+
+set autowrite
 
 set cursorline
 " Statusline Stuff
