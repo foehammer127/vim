@@ -12,6 +12,8 @@ call plug#begin('~/.vim/plugged')
  Plug 'lervag/vimtex'
  Plug 'rhysd/vim-clang-format'
  Plug 'catppuccin/vim'
+ Plug 'mattn/vim-lsp-settings' 
+ Plug 'prabirshrestha/vim-lsp'
 call plug#end()
 
 " }}}
@@ -94,6 +96,7 @@ let NerdTreeMinimalUI=1
 let NerdTreeMinimalMenu=1
 let NerdTreeQuitOnOpen='3'
 
+set termguicolors 
 
 " Vimtex
 filetype plugin indent on
