@@ -12,8 +12,6 @@ call plug#begin('~/.vim/plugged')
  Plug 'lervag/vimtex'
  Plug 'rhysd/vim-clang-format'
  Plug 'catppuccin/vim'
- Plug 'mattn/vim-lsp-settings' 
- Plug 'prabirshrestha/vim-lsp'
 call plug#end()
 
 " }}}
@@ -86,8 +84,6 @@ augroup END
 
 " }}}
 " Bindings --------------------------------------------------------------- {{{
-
-
 
 " }}}
 "Plugin Configs ---------------------------------- {{{
